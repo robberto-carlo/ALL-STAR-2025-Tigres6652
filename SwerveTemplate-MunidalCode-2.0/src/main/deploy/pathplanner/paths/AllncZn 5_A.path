@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.649,
+        "y": 7.352
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.910451158944173,
+        "y": 5.819225993374168
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.181663907284768,
+        "y": 3.6327400662251654
+      },
+      "prevControl": {
+        "x": 2.5424254966925166,
+        "y": 3.90877483443377
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "Alliance Zone",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -53.286
+  },
+  "useDefaultConstraints": true
+}
