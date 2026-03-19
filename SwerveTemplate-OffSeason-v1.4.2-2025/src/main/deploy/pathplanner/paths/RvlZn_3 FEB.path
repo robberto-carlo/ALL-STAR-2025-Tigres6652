@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.656,
+        "y": 0.662
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.2985505934789967,
+        "y": 0.662
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.201076158940398,
+        "y": 2.913596854304635
+      },
+      "prevControl": {
+        "x": 4.903249172185432,
+        "y": 1.9765314569536419
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 120.51526643967702
+  },
+  "reversed": false,
+  "folder": "Rival Zone FEB",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 54.058
+  },
+  "useDefaultConstraints": true
+}

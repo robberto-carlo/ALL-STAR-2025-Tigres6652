@@ -1,0 +1,105 @@
+REGISTRO DE VERSIONES - EQUIPO TIGRES 6652
+====================================================
+VERSIÓN 0.0.0 - FECHA: 00-00-2025
+----------------------------------------------------
+CAMBIOS PRINCIPALES:
+-
+MEJORAS:
+- 
+CORRECCIONES:
+- 
+----------------------------------------------------
+VERSIÓN 1.4.2 - FECHA: 00-00-2025
+----------------------------------------------------
+CAMBIOS PRINCIPALES:
+- Auto apuntado por cordenadas
+MEJORAS:
+- Implementacion a la simulacion el movimiento de la swerve
+CORRECCIONES:
+- 
+----------------------------------------------------
+VERSIÓN 1.4.1 - FECHA: 04-11-2025
+----------------------------------------------------
+CAMBIOS PRINCIPALES:
+- Implementación del PID en el elevador
+MEJORAS:
+- Simulacion en el movimiento del Elevador 
+CORRECCIONES:
+- 
+----------------------------------------------------
+VERSIÓN 1.3.4 - FECHA: 14-10-2025
+----------------------------------------------------
+CAMBIOS PRINCIPALES:
+- Agregamos rotacion al auto apuntado
+MEJORAS:
+- 
+CORRECCIONES:
+- 
+----------------------------------------------------
+VERSIÓN 1.3.3 - FECHA: 12-10-2025
+----------------------------------------------------
+CAMBIOS PRINCIPALES:
+- Quitamos el climber y lo remplazamos por el mecanismo del Quita algas
+- Mejoramos la lógica del auto apuntado, y ahora usamos 2 camaras 
+MEJORAS:
+- Pusimos posiciones al quita algas con las flechas del segundo control
+- solo le tiene que presionar 1 vez a los botones del elevador y el quita algas para que funcionen
+CORRECCIONES:
+- ya funcionan los comandos por niveles del elevador en el autónomo
+----------------------------------------------------
+VERSIÓN 1.3.2 - FECHA: 07-10-2025
+----------------------------------------------------
+CAMBIOS PRINCIPALES:
+- el auto apuntado ya se mueve también en el eje X, y no solo en Y
+MEJORAS:
+- el auto apuntado le agregamos conversion a metros y no en grados del abriltag
+CORRECCIONES:
+- 
+----------------------------------------------------
+VERSIÓN 1.3.1 - FECHA: 06-10-2025
+----------------------------------------------------
+CAMBIOS PRINCIPALES:
+- Implementación del Auto apuntado con 1 camara
+MEJORAS:
+- 
+CORRECCIONES:
+- 
+----------------------------------------------------
+VERSIÓN 1.3.0 - FECHA: 04-10-2025
+----------------------------------------------------
+CAMBIOS PRINCIPALES:
+- Implementación del seteo de los meta quest en el autónomo
+MEJORAS:
+- 
+CORRECCIONES:
+- Controlamos el voltaje del Elevador y reducimos el error del elevador
+----------------------------------------------------
+VERSIÓN 1.2.3 - FECHA: 30-09-2025
+----------------------------------------------------
+CAMBIOS PRINCIPALES:
+- Agregamos confianza dinámica para evitar el error en las mediciones muy altas dadas por los meta quest
+- Agregamos el código del clinver
+MEJORAS:
+- Agregamos el código del Elevador por niveles
+- El outake ahora puede mover los motores a las 2 direcciones pero atrás con menos velocidad
+CORRECCIONES:
+- Quitamos la implantación de Filtro EMA 
+----------------------------------------------------
+VERSIÓN 1.2.2 - FECHA: 23-09-2025 
+----------------------------------------------------
+CAMBIOS PRINCIPALES:
+- implantación de Filtro EMA (Exponential Moving Average) con alpha = 0.7
+MEJORAS:
+-
+CORRECCIONES:
+-
+----------------------------------------------------
+VERSIÓN 1.2.1 - FECHA: 22-09-2025
+----------------------------------------------------
+CAMBIOS PRINCIPALES:
+- Implementación de las mediciones de los Meta Quest 3s en el autónomo.
+MEJORAS:
+-
+CORRECCIONES:
+- Cambios en la confianza de los Meta Quest en el subsystems --> QuestNavSubsystem, de 2,2,2 paso a 8,8,5
+----------------------------------------------------
